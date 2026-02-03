@@ -93,12 +93,16 @@ Powered by a highly optimized **Tesseract** engine massaged for iOS:
 
 📐 **Hybrid Normalization:** Automatically adapts between **Pixel Space** (1080p) and **Point Space** (UIKit) for universal device compatibility. 📱
 
-### 3. Deep System Control ⚙️
+### 3. ULTRA Deep System Control ⚙️
 👻 **Persistent Daemon:** Runs independently of the UI. Your script continues even if the app crashes or is closed.
 
 🌉 **IPC Bridge:** A robust file-based Inter-Process Communication allowing the App and Daemon to exchange data instantly. File-Based interconnnection of Cerberus Daemon vs Cerberus App because during testing it showed ultra perfect communication.
 
 🔓 **True Admin:** Everything is native for perfect execution. Native app launching and hardware-level event injection. All exactly as a human.
+
+🔋 **Battery Detection** CERBERUS includes a separate TrollStore Daemon that maintains battery in the range of 50% to 80%. This is done mainly to avoid CERBERUS from being detected as a 100% battery bot and simulates charging/discharging actions just like a human user. This also helps with power consumption and battery health. Win Win.
+
+⏳ **UPTIME KERNEL Detection** CERBERUS includes a hook that maintains the UPTIME KERNEL time in the range of 10-40 Days Randomly. This should be OBLIGATORY for a bot and yet no automation software has this included. CERBERUS includes a .deb that allows to select to which app this applies. CERBERUS also includes a .dylib for manual/jailed injection💓
 
 ## 🔧 Technical Specifications
 ### Scripting Engine 📜
@@ -155,6 +159,8 @@ In the folder IMAGES/VIDEOS of this project you can see this in action📜⚡
 
 🔋 And many other optimizations so the drainage is as minimal as possible
 
-Always Improving
+
 
 CERBERUS-AGI is an independent project and is not affiliated with Apple Inc. 🍎
+
+Always Improving. This is created to improve lifestyle NOT for PIRACY. 
