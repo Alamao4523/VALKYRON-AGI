@@ -13,8 +13,14 @@ Helloo, My design philosophy is built on 5 unshakeable pillars:
 
 ---
 ## 🌌 INTRODUCTION> Infinite Intelligence: A New Era
-**CERBERUS** transcends simple coordinate clicking. It is **not** limited to manual static scripts. There are two modes> MANUAL MODE/AGI MODE
-CERBERUS transcends simple coordinate clicking. It is born to be integrated with AI of preference. CERBERUS serves as the kinetic bridge 🌉 where it has the ability to read the screen, launch apps, swipes, taps, execute shortcuts etc.. and with this it empowers specialized AI software like GPT-4o Vision/Gemini/Claude to take full control, transforming english digital intent into precise physical action. In other words: Your iPhone/iPad is now your own autonomous digital employee. 👔💼
+**CERBERUS** transcends simple coordinate clicking. It is **not** limited to manual static scripts. 
+
+There are two modes> MANUAL MODE/AGI MODE
+CERBERUS transcends simple coordinate clicking. It is born to be integrated with AI of preference. 
+
+CERBERUS serves as the kinetic bridge 🌉 where it has the ability to read the screen, launch apps, swipes, taps, execute shortcuts etc.. and with this it empowers specialized AI software like GPT-4o Vision/Gemini/Claude to take full control, transforming english digital intent into precise physical action. 
+
+In other words: Your iPhone/iPad is now your own autonomous digital employee. 👔💼
 
 💓 POTENTIAL SOFTWARE USES INCLUDE>
 Here are 5 powerful ways to leverage **CERBERUS** + **AI Vision**:
