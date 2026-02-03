@@ -45,7 +45,7 @@ For now> The only limit is your imagination and the legality within your jurisdi
 
 ⚡MODES>
 Automation workflows can be crafted manually or generated via AI Assistance with prompts and then AI takes full control🪄.
-CERBERUS can still operate in OFFLINE mode without problem, however keep in mind AI obviously requires internet access unless the AI runs locally, in that case CEBERUS could run 100% Offline.
+CERBERUS can still operate in OFFLINE mode without problem, however keep in mind AI obviously requires internet access unless the AI runs locally, in that case CERBERUS could run 100% Offline.
 
 
 In AI Mode, the system autonomously interprets your natural English commands and decides the best pathway for execution. 
