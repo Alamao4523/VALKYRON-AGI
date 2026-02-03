@@ -112,9 +112,9 @@ CERBERUS uses a robust, proprietary scripting format designed for stability and 
 
 This was crafted this way to ensure short scripts and to be understood by everyone. This also helps the AI to craft better scripts. 
 
-Other tools have complex scripting which would crash any AI due to complexity/variables.
+Other tools have complex scripting like Lua which would crash any AI due to complexity/variables.
 
-CERBERUS solves this using an internal JSON AI PARSER, so it uses its own unique and super easy commands
+CERBERUS solves this using an internal JSON AI PARSER, this is the revolution, so it uses its own unique and super easy short commands
 
 # 🎮 Example Manual Script. The Syntaxis
 
