@@ -1,8 +1,8 @@
 # 🦅 CERBERUS-AGI
 
-The First "Human-Like" Automation AGI for iOS 🧠✨
+The First "Human-Like" Automation AGI for iOS 🧠✨ You can see the VIDEO.mp4 to see it in action. Soooooo, 
 
-**CERBERUS-AGI** was forged by me with a singular obsession: to achieve the **ultimate evolution** in iOS automation. 🚀  
+**CERBERUS-AGI** was forged by me with a singular obsession: to achieve the **ultimate evolution** in iOS automation. 🚀  It can withstand months of non-stop execution. Refined with AI to improve the stability so its basically inmortal.
 
 Helloo, I am a IOS Security Researcher & Software Designer. This project was crafted for more than 5 years and I am still improving it. The full propietary source code is for sale also as of January 2026.
 
