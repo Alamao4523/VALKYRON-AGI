@@ -150,6 +150,11 @@ In the folder IMAGES/VIDEOS of this project you can see this in action📜⚡
 ### Resource Efficiency 🔋
 
 📉 Dynamic Frequency Scaling: The daemon sleeps when idle (**0% CPU**) and wakes only for action execution, it tries to interfere minimally to avoid any JETSAM kills
+
 🧹 Memory Safety: Automatic strict recycling of the OCR engine and other components to prevent heap fragmentation during 24/7 operation, to ensure months of true operation
+
+🔋 And many other optimizations so the drainage is as minimal as possible
+
+Always Improving
 
 CERBERUS-AGI is an independent project and is not affiliated with Apple Inc. 🍎
