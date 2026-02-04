@@ -172,7 +172,7 @@ This allows CERBERUS to remain stable, believable, and adaptive over long runtim
 
 > 1.  ❤️ Intent Verification Layer (IVL) — “Human Double-Check” - Before executing high-risk actions
 > 2.  ❤️ Temporal Memory Engine - Lightweight long-term memory stored as compressed behavior vectors. True AGI must have this, often referred as conciousness.
-> 3.  ❤️ Feelings = Compressed System Feedback. Main Ones> Comfort/Discomfort/Frustration/Satisfaction/Confidence/Uncertainty/Anxiety/Familiarity/Attachment/Anticipation/Regret
+> 3.  ❤️ Feelings = Compressed System Feedback. Comfort/ Discomfort/ Frustration/ Satisfaction/ Confidence/ Uncertainty/ Anxiety/ Familiarity/ Attachment/ Anticipation/ Regret
 > 4.  ❤️ Privacy First. Ensure BOTH CERBERUS and AI care for the Privacy of the user and treat with full respect this.
 > 5.  Im sure there are more
 
