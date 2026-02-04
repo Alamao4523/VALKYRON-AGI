@@ -1,7 +1,7 @@
 # ⚜️ CERBERUS-AGI 2026 ⚜️
 # Human-Like, Long-Running iOS Automation Bot — Built for true AGI Control 🧠🤖
 
-🎬 See VIDEO.mp4 to watch CERBERUS in action✨ In very simple words, CERBERUS gives “Eyes & Hands” to AI to operate safely a IOS Device.
+🎬 See VIDEO.mp4 to watch a demo of CERBERUS in action✨ In very simple words, CERBERUS gives “Eyes & Hands” to AI to operate safely a IOS Device.
 
 CERBERUS-AGI is a high-stability iOS automation framework engineered to run for months without interruption🧠
 
@@ -180,7 +180,7 @@ This allows CERBERUS to remain stable, believable, and adaptive over long runtim
 > 4.  ❤️ Privacy First. Ensure BOTH CERBERUS and AI care for the Privacy of the user and treat with full respect this.
 > 5.  Im sure there are more
 
-🎬 See VIDEO.mp4 to watch CERBERUS 🐺🐺🐺 in action✨
+🎬 See VIDEO.mp4 to watch a demo of CERBERUS 🐺🐺🐺 in action✨
 
 ℹ️ You can always contact me also if this is of your interest/you see it has potential/you want to hire me/you have cool ideas/collabs
 
