@@ -35,7 +35,7 @@ It understands screens, context, and intent, not just coordinates.
 
 2️⃣ Automation Modes
 
-🛠️ Manual Mode
+🛠️ Script Mode
 
 🧠 AI Mode
 
@@ -66,7 +66,7 @@ And many more to come...
 
 And many more to come... This are examples only — legality depends on your jurisdiction.
 
-# 🛠️ Manual Mode / 🪄 AI Mode
+# 🛠️ Script Mode / 🪄 AI Mode
 
 CERBERUS can run 100% offline, except when using external AI APIs obviously (unless AI is local). In AI Mode, AI interprets English commands and decides optimal/logical execution paths to achieve user desired outcomes
 
