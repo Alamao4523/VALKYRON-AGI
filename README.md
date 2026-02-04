@@ -105,30 +105,28 @@ If AI fails logically, CERBERUS ensures deep-process survival & recovery
 > 2.  🛡️ Survives crashes. Internal protection mechanism based on strict heartbeat algorthims
 > 3.  🛡️ Can still work in Safe Mode + Detects & exits Safe Mode automatically
 > 4.  🛡️ Can detect and solve Dopamine Watchdog Timeouts + perform userspace reboots to apply
-> 5.  🛡️ Many other curated Defense Mechanisms like Auto-Refresh App Registrations without any interruption etc.
+> 5.  🛡️ Many other curated Defense Mechanisms like Auto-Refresh App Registrations without any interruption to avoid entlitlements issues etc.
 
-# 🧠 Core System Features
-1️⃣ Neural Touch Engine 🖐️
+# 🧠 SuperCharged with Core System Features
 
-Humanized taps, swipes & delays
+🤖 AI/SCRIPT Based Driven Automation
 
-2️⃣ Visual Cortex (Background OCR) 👁️👁️
+👁️ OCR with ~20ms latency · software rendering · resolution-agnostic
 
-🚀 ~20ms latency · software rendering · resolution-agnostic
-
-3️⃣ Deep System Control ⚙️
+⚙️ Deep System Control
 
 👻 Persistent daemon
+
 🌉 File-based IPC (ultra stable)
-🔓 Native app launching & event injection
 
-🔋 Battery Normalization
-Maintains 50–80% battery to simulate human usage
+🔓 Native app launching & human event injection
 
-⏳ Kernel Uptime Randomization
-Keeps realistic uptime (10–40 days)
+🔋 Maintains 50–80% battery to simulate human usage thank to a TrollStore mini daemon
 
-📜 Scripting Engine
+⏳ Maintains Kernel Uptime Randomization for the selected apps. Keeps realistic uptime (10–40 days). Available in both .DEB and .DYLIB(JAILED)
+
+
+# 📜 About the Scripting Engine
 
 CERBERUS uses a simple proprietary scripting format designed to be:
 
