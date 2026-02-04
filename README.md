@@ -138,7 +138,7 @@ So CERBERUS uses a simple proprietary scripting format. This is a must. It must 
 
 🔥 No LUA. No PYTHON. No Code. This is achieved by using a secret-sauce AI JSON OFFLINE Parser. Everything is then converted so Cerberus can take action.
 
-👑 Creating scripts is easy for humans. Even easier for AI. Complex scripting languages were intentionally avoided. This AI Parser also ensures that if something is malformed it will just continue safely. 
+👑 Creating scripts should be easy for humans. Even easier for AI. Complex scripting languages were intentionally avoided. This AI Parser also ensures that if a action is malformed it will just continue safely with the execution. 
 
 📜 I attached a example script, every new line will correspond to a action. Capable of handling +1 Million actions as its file based and safeguards keep it on track against edge-cases
 
@@ -162,7 +162,7 @@ And many more to come...
 
 CERBERUS is not traditional automation. It operates as an embodied system agent on iOS — meaning decisions are influenced not only by logic, but by the internal state of the device and the agent itself.
 
-Actions are shaped by perception confidence, system comfort, historical outcomes, and temporal context — similar to how humans adapt behavior based on experience and physical condition.
+(💓 IN PROGRESS) Actions are shaped by perception confidence, system comfort and other logical feelings, historical outcomes, and temporal context — similar to how humans adapt behavior based on experience and physical condition. (Affective states are difficult to implement, but essential 💓 Both CERBERUS and the connected AI should maintain internal affective signals, allowing decisions to emerge from a shared consensus rather than unilateral execution.
 
 This allows CERBERUS to remain stable, believable, and adaptive over long runtimes, even in hostile or changing environments.
 
