@@ -12,7 +12,7 @@ Most iOS automation tools fail under long runtimes. CERBERUS solves this with Tr
 # ✨ About the Project - About Me
 
 CERBERUS was crafted over 5+ years work. Driven by one obsession: PURE stability. 
-The only way this can be achieved is to be as native as posible but still remaining truly powerfull.
+The only way this can be achieved is to be as native as posible but still remaining truly powerful.
 You can always contact me also if this is of your interest/you see it has potential/you want to hire me
 
 💼 Full Proprietary source code available for someone who invests in me
