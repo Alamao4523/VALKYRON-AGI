@@ -56,36 +56,19 @@ And many more to come...
 
 # 👔💼 Your iPhone/iPad becomes an autonomous digital worker
 
-💓 Potential Use Cases (Examples)
+💓 Potential Use Cases (Examples): 
+> 1.  🚀📈 Trader Agent AI-driven trading based on charts, news & live app data
+> 2.  🎮🪄 Game Automation. Human-like farming, healing & repetitive gameplay
+> 3.  🚀📱 Growth Engine Social workflows executed physically — not fragile APIs
+> 4.  💓💓 Unique in helping for 0nlyFans Marketing
+> 5.  📅 Digital Secretary - Automates repetitive iOS tasks & your daily workflows
+> 6.  🧠 AI Bridge - Allows AI to solve CAPTCHAs, puzzles & perform on dynamic changing UI logic
 
-📈 Trader Agent
-AI-driven trading based on charts, news & live app data
+And many more to come... This are examples only — legality depends on your jurisdiction.
 
-🎮 Game Automation
-Human-like farming, healing & repetitive gameplay
+# 🛠️ Manual Mode / 🪄 AI Mode
 
-🚀 Growth Engine
-Social workflows executed physically — not fragile APIs
-
-📅 Digital Secretary
-Automates repetitive iOS tasks & daily workflows
-
-🧠 AI Bridge
-Allows AI to solve CAPTCHAs, puzzles & dynamic UI logic
-
-👻 Examples only — legality depends on your jurisdiction.
-
-⚡ Automation Modes
-
-🛠️ Manual Mode
-Deterministic scripts · fully offline capable
-
-🪄 AI Mode
-AI interprets English commands and decides execution paths
-
-📴 CERBERUS can run 100% offline, except when using external AI APIs (unless AI is local).
-
-🧠 AI Execution Model
+CERBERUS can run 100% offline, except when using external AI APIs obviously (unless AI is local). In AI Mode, AI interprets English commands and decides optimal/logical execution paths to achieve user desired outcomes
 
 🧠 Cognitive Offloading
 Realtime screen states captured in RAM and sent to AI for decisions
@@ -94,34 +77,31 @@ Realtime screen states captured in RAM and sent to AI for decisions
 High-level intent → precise touch automation
 
 🩹 Self-Healing Logic
-If AI fails logically, CERBERUS ensures process survival & recovery
+If AI fails logically, CERBERUS ensures deep-process survival & recovery
 
-🧬 Human-Like Input Engine
+🧬 Human-Like Input Engine system-wide
 
-🖐️ Proprietary Human Logic Engine
+# 🖐️ Proprietary Human Logic Engine - Behaves like a real human hand
 
 〰️ Bezier-curve swipes (non-robotic motion)
+
 💓 Micro-tremors during holds
+
 ⏳ Randomized reaction latency (±12%)
+
 🛡️ Edge protection against system gestures
 
-Built to behave like a real human hand 🕵️‍♂️
-
-⚙️ Compatibility & Architecture
+# ⚙️ Compatibility & Architecture
 
 📱 Supported Environments
 
-TrollStore
+📱 TrollStore + Palera1n/Dopamine (Rootless / Roothide)
 
-Dopamine (Rootless / Roothide)
+🍎 iOS 15 / 16 / 17 / Will add support for Palera1n IOS 18 (IPAD 7TH GEN)
 
-iOS 15 / 16 / 17 / 18
+📱 iPhone & iPad are fully supported
 
-iPhone & iPad
-
-iPad 7th Gen (Palera1n)
-
-🛠️ Admin Daemon
+# 🛠️ Admin Daemon
 
 Installed separately (via Filza)
 
@@ -163,22 +143,6 @@ Easy for AI
 Extremely stable
 
 Complex scripting languages were intentionally avoided.
-
-🎮 Example Script
-name: RealExampleScriptShowcaseV1
-loop: true
-loopTimes: -1
-defaultDelay: 0
-applaunch: com.xxxxx.xxxxxx
-ocr:Login
-swipe:0.5,0.8|0.5,0.2|0.5
-find:BANNED|shortcuts://run-shortcut?name=BAN
-tap:0.16,0.73
-lock
-home
-volumeUp
-volumeDown
-ocr:Explore>delay:2
 
 🔋 Resource Efficiency
 
