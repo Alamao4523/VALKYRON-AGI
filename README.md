@@ -49,6 +49,7 @@ Current Capabalities:
 > 4.  ⚙️ **Execute IOS Shortcuts** (Support for the native IOS Shortcuts App)
 > 5.  🧱 **Run persistently in background** (No app crashes never. If it does crash, it will AutoHeal.)
 > 6.  🎮 **Deep Sensor Retrieval** (Using the own deep low-level sensor data of the device to make decisions, in complex environments)
+> 7.  📜 **Generate Deep AI Reports** (Reads Deep Sensor Data/Active Processes/Device Behavior/Log analysis/Pattern Detection and many more to generate a AI Text Report. Optionally this can be sent automatically with the device associated ID to your own server)
 
 And many more to come...
 
@@ -155,5 +156,6 @@ And many more to come...
 
 > 1.  ⚠️ CERBERUS-AGI is an independent research project and is not affiliated with Apple Inc.
 > 2.  ⚠️ Built to improve lifestyle & automation — NOT for PIRACY.
+> 3.  ⚠️ CERBERUS was never designed as a jailbreak toy😊 It was built as a poweful system-level vector to enable AI integration through the capabilities provided by the CERBERUS bridge.
 
 🦅 The most stable, human-like, long-running iOS automation engine ever built — designed to be AI-driven. 🧠🤖
