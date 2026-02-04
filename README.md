@@ -21,7 +21,7 @@ You can always contact me also if this is of your interest/you see it has potent
 
 # 🧱 Design Philosophy — 5 Core Pillars
 
-Helloo, My design philosophy is built on 5 unshakeable pillars: 
+My design philosophy is built on 5 unshakeable pillars: 
 > 1.  🪶 **Extreme Lightweight Efficiency while keeping multi-layered safeguards** (~20MB Total App Footprint - with a preference of storing everything in the RAM - Impact on IOS Storage is minimal)
 > 2.  💎 **Native Stability** (Powered by TrollStore technology as it is ultra stable + hardened with a Dopamine Admin Daemon)
 > 3.  🤖 **Ultra-Intelligence** (Bridging static scripts and true AGI)
