@@ -1,57 +1,43 @@
-name:EXAMPLE OF COMMANDS
+name:EXAMPLE OF COMMANDS FOR CERBERUS AGI 2026
 loop:true
 loopCount:-1
 defaultDelay:0
 
-# IGNITE
+# IGNITE - LOCK AND UNLOCK DEVICE TO FLUSH MEMORY
 lock
 home
 home
 
-# BASE
+# BASE - LAUNCH CERBERUS AND EXECUTE A NATIVE SHORTCUT
 app:com.skynet.cerberus
 url:shortcuts://run-shortcut?name=TEST
 home
 home
 
-# EXIT SAFEMODE
+# EXIT SAFEMODE - GOES TO HOMESCREEN AND TRIGGERS A SAFE MODE EXIT + VERIFIES
+home
+home
 tap:0,0
 ocr:Safe
 url:shortcuts://run-shortcut?name=VERIFY
 
-# SKYNET
-url:shortcuts://run-shortcut?name=CLOSE
-app:com.skynet.cerberus
-url:shortcuts://run-shortcut?name=UPDATE>delay:2
-tap:0.16,0.73
-url:shortcuts://run-shortcut?name=IOS
-tap:0.16,0.73
-
-# START
-app:com.skynet.cerberus
-url:shortcuts://run-shortcut?name=START
-
-# DATA
+# OTHER ACTIONS AND TAPS
 url:shortcuts://run-shortcut?name=DATA
 url:shortcuts://run-shortcut?name=RESTORE>delay:2
 tap:0.41,0.15
 tap:0.41,0.15
+lock
+home
+home
+volumeUp
+volumeDown
 
-# IDFV
-url:shortcuts://run-shortcut?name=IDFV
-url:shortcuts://run-shortcut?name=CLOSE
-
-# LAUNCH
+# LAUNCH APPS
 app:com.skynet.cerberus
 url:shortcuts://run-shortcut?name=LAUNCH>delay:2
 app:com.xxxxxx.xxxxxxxxxx>delay:5
 
-# WIFI
-lock
-home
-home>delay:10
-
-# BAN
+# OTHER ACTIONS AND OCR RELATED ACTIONS
 find:BANNED|shortcuts://run-shortcut?name=BAN
 app:com.skynet.cerberus
 url:shortcuts://run-shortcut?name=CLOSE
@@ -61,11 +47,5 @@ ocr:Login
 swipe:0.5,0.8|0.5,0.2|0.5
 find:BANNED|shortcuts://run-shortcut?name=BAN
 tap:0.16,0.73
-lock
-home
-home
-volumeUp
-volumeDown
 ocr:Explore>delay:2
-
 url:shortcuts://run-shortcut?name=REBOOT>delay:2
