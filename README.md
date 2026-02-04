@@ -84,7 +84,7 @@ If AI fails logically, CERBERUS ensures deep-process survival & recovery
 
 🧬 Human-Like Input Engine system-wide
 
-💓 If it suits you, its ready to be scaled to your desired petition. No need for computer. All happens ON-DEVICE
+💓 If it suits you, its ready to be scaled to your desired petition. No need for computer. All happens ON-DEVICE.
 
 # 🖐️ Human System-Wide Logic Engine
 
@@ -126,7 +126,7 @@ If AI fails logically, CERBERUS ensures deep-process survival & recovery
 
 🔓 Native app launching & human event injection
 
-🔋 Maintains 50–80% battery to simulate human usage thank to a TrollStore mini daemon
+🔋 Maintains 50–80% battery to simulate human usage due to a TrollStore mini daemon
 
 🛡️ Safety Based. Uptime Kernel Randomization for the selected apps. Supports all IOS Uptime checks. Keeps realistic uptime (10–40 days). Available in both .DEB and .DYLIB (JAILED Injection)
 
