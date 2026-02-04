@@ -156,7 +156,7 @@ And many more to come...
 
 > 1.  ⚠️ CERBERUS-AGI is an independent research project and is not affiliated with Apple Inc.
 > 2.  ⚠️ Built to improve lifestyle & automation — NOT for PIRACY.
-> 3.  ⚠️ CERBERUS was never designed as a jailbreak toy😊 It was built as a poweful system-level vector to enable AI integration through the capabilities provided by the CERBERUS bridge.
+> 3.  ⚠️ CERBERUS was never designed as a jailbreak toy. It was built as a powerful system-level vector, made possible thanks to the foundational work of Lars Fröder (opa334) on TrollStore and Dopamine, enabling deep, stable AI integration through the capabilities exposed by the CERBERUS bridge.
 
 # 🧠🫀 Embodied Cognition Layer — Beyond Automation
 
