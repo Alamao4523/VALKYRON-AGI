@@ -123,31 +123,30 @@ If AI fails logically, CERBERUS ensures deep-process survival & recovery
 
 🔋 Maintains 50–80% battery to simulate human usage thank to a TrollStore mini daemon
 
-⏳ Maintains Kernel Uptime Randomization for the selected apps. Keeps realistic uptime (10–40 days). Available in both .DEB and .DYLIB(JAILED)
+🛡️ Safety Based. Uptime Kernel Randomization for the selected apps. Supports all IOS Uptime checks. Keeps realistic uptime (10–40 days). Available in both .DEB and .DYLIB (JAILED Injection)
 
 
 # 📜 About the Scripting Engine
 
-CERBERUS uses a simple proprietary scripting format designed to be:
+So CERBERUS uses a simple proprietary scripting format. This is a must. It must be ultra simple so the AI can craft short scripts with positive outcomes.
 
-Easy for humans
+🔥 No LUA. No PYTHON. No Code. This is achieved by using a secret-sauce AI JSON OFFLINE Parser. Everything is then converted so Cerberus can take action.
 
-Easy for AI
+👑 Creating scripts is easy for humans. Even easier for AI. Complex scripting languages were intentionally avoided. This AI Parser also ensures that if something is malformed it will just continue safely. 
 
-Extremely stable
+📜 I attached a example script, every new line will correspond to a action. Capable of handling +1 Million actions as its file based and safeguards keep it on track against edge-cases
 
-Complex scripting languages were intentionally avoided.
-
-🔋 Resource Efficiency
+# 🔋 Resource Efficiency
 
 📉 Dynamic frequency scaling (0% CPU when idle)
+
 🧹 Automatic memory recycling for 24/7 operation
+
 🔋 Optimized for minimal battery drain
 
-🍎 Disclaimer
+# ⚠️ Disclaimer
 
-CERBERUS-AGI is an independent research project and is not affiliated with Apple Inc.
-
-✨ Built to improve productivity & automation — NOT for piracy.
+> 1.  ⚠️ CERBERUS-AGI is an independent research project and is not affiliated with Apple Inc.
+> 2.  ⚠️ Built to improve lifestyle & automation — NOT for PIRACY.
 
 🦅 The most stable, human-like, long-running iOS automation engine ever built — designed to be AI-driven. 🧠🤖
