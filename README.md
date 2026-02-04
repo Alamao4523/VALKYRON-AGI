@@ -55,6 +55,8 @@ Current Capabalities:
 
 And many more to come...
 
+<img width="1620" height="2160" alt="image" src="https://github.com/user-attachments/assets/304c4306-6a8b-442a-a56e-fac5b392e268" />
+
 🌉 This effectively bridges AI reasoning models such as GPT-4o Vision, Gemini, and Claude with iOS, allowing natural language intent to be executed as real physical actions on the device.
 
 # 👔💼 Your iPhone/iPad becomes an autonomous digital worker
