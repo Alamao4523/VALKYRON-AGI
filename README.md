@@ -129,7 +129,7 @@ If AI fails logically, CERBERUS ensures deep-process survival & recovery
 
 🔓 Native app launching & human event injection
 
-🔋 Maintains 50–80% battery to simulate human usage thanks to a TrollStore mini daemon
+🔋 Maintains 50–80% battery to simulate human usage thanks to a TrollStore helper mini daemon
 
 🛡️ Safety Based. Uptime Kernel Randomization for the selected apps. Supports all IOS Uptime checks. Keeps realistic uptime (10–40 days). Available in both .DEB and .DYLIB (JAILED Injection)
 
