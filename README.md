@@ -61,19 +61,6 @@ And many more to come...
 
 # 👔💼 Your iPhone/iPad becomes an autonomous digital worker
 
-💓 Potential Use Cases (Examples): 
-> 1.  📈 Trader Agent AI-driven trading based on charts, news & live app data
-> 2.  🎮 Game Automation. Human-like farming, healing & repetitive gameplay
-> 3.  📱 Growth Engine Social Media workflows executed physically — not fragile APIs
-> 4.  💓 Unique in helping for 0nlyFans related Marketing
-> 5.  📅 Digital Secretary - Automates repetitive iOS tasks & your daily workflows
-> 6.  🧠 AI Bridge - Allows AI to solve CAPTCHAs, puzzles, skip intrusive ads & also perform on dynamic changing UI logic btw
-> 7.  📱 App Testing: Perfect for stress testing during months, and performance monitoring.
-> 8.  📈 Workflow Data Automation: Batch file processing and data analysis.
-> 9.  🎮 Smart Control: Responsive scripts using the own sensor data of the device.
-
-And many more to come... This are examples only — legality depends on your jurisdiction.
-
 # 🛠️ Script Mode / 🪄 AI Mode:
 
 CERBERUS can run 100% offline, except when using external AI APIs obviously (unless AI is local). In AI Mode, AI interprets English commands and decides optimal/logical execution paths to achieve user desired outcomes
