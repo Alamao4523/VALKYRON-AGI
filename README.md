@@ -4,7 +4,7 @@ iOS On-Device UI Interaction Runtime (Research Project)
 
 A long-running iOS interaction framework designed for persistent UI automation, testing, and research on jailbroken devices.
 
-This project focuses on stability, low resource usage, and reliable on-device execution without requiring a permanent connection to a computer.
+This project focuses on stability, low resource usage, and reliable FULL on-device execution without requiring a any connection to a computer.
 
 💜📀 A demonstration video is available in VIDEO.mp4 (You may have to download it, idkwhy preview is not available)
 
