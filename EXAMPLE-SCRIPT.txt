@@ -31,21 +31,3 @@ home
 home
 volumeUp
 volumeDown
-
-# LAUNCH APPS
-app:com.skynet.cerberus
-url:shortcuts://run-shortcut?name=LAUNCH>delay:2
-app:com.xxxxxx.xxxxxxxxxx>delay:5
-
-# OTHER ACTIONS AND OCR RELATED ACTIONS
-find:BANNED|shortcuts://run-shortcut?name=BAN
-app:com.skynet.cerberus
-url:shortcuts://run-shortcut?name=CLOSE
-app:com.skynet.cerberus
-applaunch: com.xxxxx.xxxxxx
-ocr:Login
-swipe:0.5,0.8|0.5,0.2|0.5
-find:BANNED|shortcuts://run-shortcut?name=BAN
-tap:0.16,0.73
-ocr:Explore>delay:2
-url:shortcuts://run-shortcut?name=REBOOT>delay:2
