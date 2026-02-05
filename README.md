@@ -24,7 +24,7 @@ The system is distributed as a TrollStore IPA and supported by a small backgroun
 
 ⸻
 
-Design Goals
+🏁 Design Goals
 	•	Extremely lightweight footprint (~20MB)
 	•	Designed for very long runtimes (days/weeks)
 	•	Standalone operation directly on the device
@@ -36,7 +36,7 @@ Design Goals
 
 ⸻
 
-Core Capabilities
+💪🏻 Core Capabilities
 	•	Launch applications
 	•	Read on-screen content using OCR
 	•	Perform taps, swipes, and gestures
@@ -59,7 +59,7 @@ External systems can be connected to interpret screen state and decide next acti
 
 ⸻
 
-Architecture
+🧱 Architecture
 	•	TrollStore application
 	•	Lightweight background helper for session stability
 	•	File-based communication between components
@@ -68,7 +68,7 @@ Architecture
 
 ⸻
 
-Compatibility
+🍏 Compatibility
 	•	TrollStore
 	•	Dopamine / Palera1n (rootless / roothide)
 	•	iOS 15 / 16 / 17
@@ -76,7 +76,7 @@ Compatibility
 
 ⸻
 
-Scripting Engine
+🧻 Scripting Engine
 
 The project uses a minimal custom scripting format where each line represents an action.
 This avoids complex languages and improves reliability for extended runs.
@@ -85,7 +85,7 @@ An example script is included in the repository.
 
 ⸻
 
-Resource Efficiency
+🔋 Resource Efficiency
 	•	Near-zero CPU usage when idle
 	•	Automatic memory recycling
 	•	Designed for minimal battery impact
@@ -113,9 +113,9 @@ Users are responsible for ensuring their usage complies with:
 
 ⸻
 
-Contact
+💌 Contact
 
-For research discussion or collaboration:
+📩📥 For research discussion or collaboration, ideas or other:
 
 albertosendr@gmail.com
 
