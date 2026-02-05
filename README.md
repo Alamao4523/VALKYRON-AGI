@@ -1,11 +1,107 @@
-# ⚜️ CERBERUS-AGI 2026 ⚜️
-# Human-Like, Long-Running iOS Automation Bot — Built for true AGI Control 🧠🤖
+#  ⚜️ CERBERUS-AGI 2026 ⚜️
 
-🎬 See VIDEO.mp4 to watch a demo of CERBERUS in action✨ In very simple words, CERBERUS gives “Eyes & Hands” to AI to operate safely a IOS Device.
+iOS On-Device AI Interaction Runtime (Research Project)
 
-CERBERUS-AGI is a high-stability iOS automation framework engineered to run for months without interruption🧠
+A long-running iOS interaction framework designed for persistent UI automation, testing, and research on jailbroken devices.
 
-It focuses on human-like interaction, native system-level reliability, and script based/AI-driven execution🦅
+This project focuses on stability, low resource usage, and reliable on-device execution without requiring a permanent connection to a computer.
+
+A demo video is available in VIDEO.mp4.
+
+⸻
+
+Overview
+
+Most iOS automation approaches rely on external control (computer connection, simulators, WebDriver, etc.) or become unstable during long runtimes.
+
+This project explores a different approach:
+
+Running a standalone interaction engine directly on the device, capable of operating for extended periods while remaining lightweight and resilient.
+
+The system is packaged as a TrollStore IPA supported by a small background helper component to improve reliability during long sessions.
+
+⸻
+
+Design Goals
+	•	Extremely lightweight footprint (~20MB)
+	•	Designed for long runtimes (days/weeks)
+	•	Standalone operation directly on the device
+	•	Simple scripting model
+	•	Low CPU and battery impact
+	•	Resolution-agnostic interaction using OCR
+	•	Integration with the native iOS Shortcuts app
+	•	File-based IPC for stability
+
+⸻
+
+Core Capabilities
+	•	Launch applications
+	•	Read screen content using OCR
+	•	Perform taps, swipes, and gestures
+	•	Execute iOS Shortcuts
+	•	Background execution designed for long sessions
+	•	Script-driven interaction model
+	•	Optional integration with external AI systems for decision making (when configured by the user)
+
+⸻
+
+Automation Modes
+
+Script Mode
+Uses a simple proprietary line-based script format designed for reliability and ease of generation.
+
+AI-Assisted Mode (Optional)
+External AI systems can be connected to interpret screen state and decide next actions. This is optional and fully user-configured.
+
+⸻
+
+Architecture
+	•	TrollStore application
+	•	Lightweight background helper for stability
+	•	File-based communication between components
+	•	Designed to remain operational across common interruption scenarios
+	•	Compatible with rootless jailbreak environments
+
+⸻
+
+Compatibility
+	•	TrollStore
+	•	Dopamine / Palera1n (rootless / roothide)
+	•	iOS 15 / 16 / 17
+	•	iPhone and iPad
+
+⸻
+
+Scripting Engine
+
+The project uses a very simple custom scripting format where each line represents an action. This avoids complex languages and improves reliability for long runs.
+
+An example script is included in the repository.
+
+⸻
+
+Resource Efficiency
+	•	Near-zero CPU usage when idle
+	•	Automatic memory recycling
+	•	Designed for minimal battery impact
+
+⸻
+
+Disclaimer
+
+This is an independent research project exploring persistent on-device UI interaction on jailbroken iOS devices.
+It is not affiliated with Apple Inc.
+
+Users are responsible for ensuring their usage complies with local laws and the terms of service of the applications they interact with.
+
+⸻
+
+Contact
+
+If you are interested in the research, collaboration, or technical discussion, you can contact:
+
+albertosendr@gmail.com
+
 
 ℹ️ Most iOS automation tools fail under long runtimes or require to be connected permanently to a computer or crash when Jailbreak goes into Safe Mode. CERBERUS is a standalone IOS Software IPA that solves this with TrollStore execution, a dedicated admin daemon, and a self-clean+healing architecture.
 
@@ -21,106 +117,7 @@ You can always contact me also if this is of your interest/you see it has potent
 
 📧 Contact me: albertosendr@gmail.com
 
-# 🧱 Design Philosophy — 5 Core Pillars:
-
-My design philosophy is built on 5 unshakeable pillars: 
-> 1.  🪶 **Extreme Lightweight Efficiency while keeping multi-layered safeguards** (~20MB Total App Footprint - with a preference of storing everything in the RAM - Impact on IOS Storage is minimal)
-> 2.  💎 **Native Stability** (Powered by TrollStore technology as it is ultra stable + hardened with a Dopamine Admin Daemon)
-> 3.  🤖 **Ultra-Intelligence** (Bridging static scripts and true AI)
-> 4.  👻 **Human Input Engine** (Powered by studied humanized micro-jitter algorithms for all actions, including taps, swipes, delays etc.)
-> 5.  🌳 **AutoClean/AutoHeal Engine** (AutoClean ensures no memory leaks. ALWAYS ON> 2 AutoHeal Protocols> One AutoHeal Internal Protocol and One AutoHeal External Native Shortcut Protocol)
-
-# 🌌 Introduction — Beyond Coordinate Clicking:
-
-CERBERUS is not a simple autoclicker. It understands screens, context, and intent, not just coordinates. It was crafted to become a future AGI IOS Agent.
-
-2️⃣ Automation Modes
-
-🛠️ Script Mode
-
-🧠 AI Mode
-
-# 🌉 AI Integration — Giving AI “Eyes & Hands”:
-
-CERBERUS acts as a kinetic bridge 🌉 between iOS and AI systems. With a key difference from other tools, it will do it exactly as a human.
-
-Current Capabalities: 
-> 1.  🚀 **Launch Apps**
-> 2.  👁️ **Read/Interact with the screen natively (OCR) + Ability to AI to see/interact with screen content** 
-> 3.  🖐️ **Tap, swipe & gesture... All actions are IDENTICAL to human behaviour**
-> 4.  ⚙️ **Execute IOS Shortcuts** (Support for the native IOS Shortcuts App)
-> 5.  🧱 **Run persistently in background** (No app crashes never. If it does crash, it will AutoHeal.)
-> 6.  🎮 **Deep Sensor Retrieval** (Using the own deep low-level sensor data of the device to make decisions, in complex environments)
-> 7.  📜 **Generate Deep AI Reports** (Reads Deep Sensor Data/Active Processes/Device Behavior/Log analysis/Pattern Detection and many more to generate a AI Text Report. Optionally this can be sent automatically with the device associated ID to your own server)
-
-And many more to come...
-
 <img width="1620" height="2160" alt="image" src="https://github.com/user-attachments/assets/304c4306-6a8b-442a-a56e-fac5b392e268" />
-
-🌉 This effectively bridges AI reasoning models such as GPT-4o Vision, Gemini, and Claude with iOS, allowing natural language intent to be executed as real physical actions on the device.
-
-# 👔💼 Your iPhone/iPad becomes an autonomous digital worker
-
-# 🛠️ Script Mode / 🪄 AI Mode:
-
-CERBERUS can run 100% offline, except when using external AI APIs obviously (unless AI is local). In AI Mode, AI interprets English commands and decides optimal/logical execution paths to achieve user desired outcomes
-
-🧠 Cognitive Offloading
-Realtime screen states captured in RAM and sent to AI for decisions
-
-🗣️ Semantic Understanding
-High-level intent → precise touch automation
-
-🩹 Self-Healing Logic
-If AI fails logically, CERBERUS ensures deep-process survival & recovery
-
-🧬 Human-Like Input Engine system-wide
-
-💓 If it suits you, its ready to be scaled to your desired petition. No need for computer. All happens ON-DEVICE.
-
-# 🖐️ Human System-Wide Logic Engine
-
-🖐️ System-Wide Logic Engine: 
-> 1.  〰️ Bezier-curve swipes (non-robotic motion)
-> 2.  💓 Micro-tremors during holds, taps, gestures...
-> 3.  ⏳ Randomized reaction latency and delays (±12%)
-> 4.  🛡️ Edge Boundary protection against off-limit system gestures
-> 5.  🧬 Native Human System-Wide inputs
-
-# ⚙️ Compatibility & Architecture - Supported Environments
-
-📱 TrollStore + Palera1n/Dopamine (Rootless / Roothide)
-
-🍎 iOS 15 / 16 / 17 / Will add support for Palera1n IOS 18 (IPAD 7TH GEN)
-
-💓 iPhone & iPad are fully supported
-
-# 🛠️ Admin Jailbreak Daemon + Cerberus TrollStore App:
-
-🛠️ Admin DAEMON Info: 
-> 1.  🛡️ This means power. Full privileges. Capable of extreme assistance/recovery of CERBERUS Main App.
-> 2.  🛡️ Survives crashes. Internal protection mechanism based on strict heartbeat algorthims
-> 3.  🛡️ Can still work in Safe Mode + Detects & exits Safe Mode automatically
-> 4.  🛡️ Can detect and solve Dopamine Watchdog Timeouts + perform userspace reboots to apply
-> 5.  🛡️ Many other curated Defense Mechanisms like Auto-Refresh App Registrations without any interruption to avoid entlitlements issues etc.
-
-# 🧠 SuperCharged with Core System Features:
-
-🤖 AI/SCRIPT Based Driven Automation
-
-👁️ OCR with ~20ms latency · software rendering · resolution-agnostic
-
-⚙️ Deep System Control
-
-👻 Persistent daemon
-
-🌉 File-based IPC (Tested for months - Ultra Stable)
-
-🔓 Native app launching & human event injection
-
-🔋 Maintains 50–80% battery to simulate human usage thanks to a TrollStore helper mini daemon
-
-🛡️ Safety Based. Uptime Kernel Randomization for the selected apps. Supports all IOS Uptime checks. Keeps realistic uptime (10–40 days). Available in both .DEB and .DYLIB (JAILED Injection)
 
 
 # 📜 About the Scripting Engine:
@@ -134,47 +131,4 @@ So CERBERUS uses a simple proprietary scripting format. This is a must. It must 
 📜 I attached a example script, every new line will correspond to a action. Capable of handling +1 Million actions as its file based and safeguards keep it on track against edge-cases
 
 ![unnamed](https://github.com/user-attachments/assets/a8f6b42e-8f09-45db-8369-86dbd7a838fe)
-
-
-# 🔋 Resource Efficiency + Other SubModules
-
-📉 Dynamic frequency scaling (0% CPU when idle)
-
-🧹 Automatic memory recycling for 24/7 operation
-
-🔋 Lots of optimizations for minimal battery drain
-
-And many more to come... 
-
-# ⚠️ Disclaimer:
-
-> 1.  ⚠️ CERBERUS-AGI is an independent research project and is not affiliated with Apple Inc.
-> 2.  ⚠️ Built to improve lifestyle & automation — NOT for PIRACY.
-> 3.  ⚠️ CERBERUS was never designed as a jailbreak toy. It was built as a powerful system-level vector, made possible thanks to the foundational work of Lars Fröder (opa334) on TrollStore and Dopamine and Serge Alagon for his work in ImmortalizerJailed, and myself in order to achieve stable IOS AI integration through the capabilities exposed by the CERBERUS bridge.
-
-# 🧠🫀 Embodied Cognition Layer — Beyond Automation
-
-ℹ️ CERBERUS is not traditional automation. It operates as an embodied system agent on iOS — meaning decisions are influenced not only by logic, but by the internal state of the device and the agent itself.
-
-(💓 IN PROGRESS) Actions are shaped by perception confidence, system comfort and other logical feelings, historical outcomes, and temporal context — similar to how humans adapt behavior based on experience and physical condition. 
-
-NOTE: Affective states are difficult to implement, but essential 💓 Both CERBERUS and the connected AI should maintain internal affective signals, allowing decisions to emerge from a shared consensus rather than unilateral execution.
-
-This allows CERBERUS to remain stable, believable, and adaptive over long runtimes, even in hostile or changing environments.
-
-# 💓 Things to add:
-
-> 1.  ❤️ Intent Verification Layer (IVL) — “Human Double-Check” - Before executing high-risk actions
-> 2.  ❤️ Temporal Memory Engine - Lightweight long-term memory stored as compressed behavior vectors. True AGI must have this, often referred as sustained consciousness.
-> 3.  ❤️ Feelings = Compressed System Feedback. Comfort/ Discomfort/ Frustration/ Satisfaction/ Confidence/ Uncertainty/ Anxiety/ Familiarity/ Attachment/ Anticipation/ Regret
-> 4.  ❤️ Privacy First. Ensure BOTH CERBERUS and AI care for the Privacy of the user and treat with full respect this.
-> 5.  Im sure there are more
-
-🎬 See VIDEO.mp4 to watch a demo of CERBERUS 🐺🐺🐺 in action✨
-
-ℹ️ You can always contact me also if this is of your interest/you see it has potential/you want to hire me/you have cool ideas/collabs
-
-📧 Contact me: albertosendr@gmail.com
-
-<img width="2048" height="2048" alt="CERBERUS" src="https://github.com/user-attachments/assets/658ca809-4c77-4748-aaa7-172ada24792b" />
 
