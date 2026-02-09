@@ -50,7 +50,7 @@
 
 | <div align="center"><img src="/Screenshots/APP_SELECT.PNG" width="100%" alt="1"/></div> | <div align="center"><img src="/Screenshots/MEM_BROWSER.PNG" width="100%" alt="2"/></div> | <div align="center"><img src="/Screenshots/MEM_DEBUG.PNG" width="100%" alt="3"/></div> | <div align="center"><img src="/Screenshots/MEM_HEX_MIX.PNG" width="100%" alt="4"/></div> |
 | :----------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------: |
-| <div align="center"><img src="/Screenshots/RVA_MANAGER.PNG" width="100%" alt="6"/></div> | <div align="center"><img src="/Screenshots/POINTER_ANALYSIS.PNG" width="100%" alt="POINTER_ANALYSIS"/></div> | <div align="center"><img src="/Screenshots/POINTER_VERIFY.PNG" width="100%" alt="7"/></div> | <div align="center"><img src="/Screenshots/POINTER_LOCKER.PNG" width="100%" alt="8"/></div> |
+| <div align="center"><img src="/Screenshots/RVA_MANAGER.PNG" width="100%" alt="6"/></div> | <div align="center"><img src="/Screenshots/POINTER_ANALYSIS.PNG" width="100%" alt="5"/></div> | <div align="center"><img src="/Screenshots/POINTER_VERIFY.PNG" width="100%" alt="7"/></div> | <div align="center"><img src="/Screenshots/POINTER_LOCKER.PNG" width="100%" alt="8"/></div> |
 
 ---
 
@@ -89,7 +89,7 @@ This is for the moment, a BETA PHASE free closed-source project, **I do not acce
 ---
 ## 💌 Contact
 
-📩📥 For research discussion or collaboration, ideas or other:
+📩📥 For research discussion or collaboration, ideas or hiring me:
 
 albertosendr@gmail.com
 
