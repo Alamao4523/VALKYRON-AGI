@@ -20,12 +20,11 @@
 
 ## 📖 Introduction
 
-iOS AI AUTOMATION
-
 > Unlike traditional jailbreak tweaks, it enables autonomous AI agents to operate without a jailbroken environment. It integrates a powerful Computer Vision Core, Human-Like Touch Simulator, Intelligent Neural Engine, and a stealthy background daemon for unlimited operation. Fully compatible with all iOS device sizes and natively supporting TrollStore, it features a consolidated control center and optimized decision logic, delivering top-tier reliability and stealth as a professional iOS autonomous agent. It also supports quick-craft manual scripts.
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/25e026b8-64ba-4958-968a-2a3112e8d032" />
+## 📖 Supported Gestures
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/25e026b8-64ba-4958-968a-2a3112e8d032" />
 
 ---
 
