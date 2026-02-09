@@ -4,7 +4,7 @@
   <img src="https://github.com/user-attachments/assets/6aadc273-e330-4f7b-bfd4-bcfece38ad0d" width="100%"/>
 </p>
 
-**iOS AGI exclusively for TrollStore**
+**iOS AGI AGENT exclusively for TrollStore**
 
 ![Platform](https://img.shields.io/badge/Platform-iOS%2014.0%2B-blue)
 ![Platform](https://img.shields.io/badge/Platform-iOS%2015.0%2B-blue)
