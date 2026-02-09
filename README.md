@@ -37,79 +37,13 @@
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/4c50f790-61b4-4885-9210-897cb5da95f9" />
 
-
+## 
 > ℹ️ More to be included. Stability > Fancy Features
-
-Overview
-
-Most iOS automation approaches depend on external control (computer connection, simulators, WebDriver, etc.) or become unstable during extended runtimes.
-
-This project explores a different approach:
-
-Running a standalone interaction engine directly on the device, capable of operating for extended periods while remaining lightweight and resilient.
-
-The system is distributed as a TrollStore IPA and supported by a small background helper component to improve reliability during long sessions.
-
-⸻
-
-⸻
-
-💪🏻 Core Capabilities
-	•	Launch applications
-	•	Read on-screen content using OCR
-	•	Perform taps, swipes, and gestures
-	•	Execute iOS Shortcuts
-	•	Background execution designed for long sessions
-	•	Script-driven interaction model
-	•	Optional integration with external decision systems configured by the user
-
-⸻
-
-Operation Modes
-
-Script Mode
-
-Uses a simple proprietary line-based script format designed for reliability and ease of generation.
-
-External Decision Mode (Optional)
-
-External systems can be connected to interpret screen state and decide next actions. This is fully optional and user-configured.
-
-⸻
-
-🧱 Architecture
-	•	TrollStore application
-	•	Lightweight background helper for session stability
-	•	File-based communication between components
-	•	Designed to remain operational across common interruption scenarios
-	•	Compatible with rootless jailbreak environments
-
-⸻
-
-🍏 Compatibility
-	•	TrollStore
-	•	Dopamine / Palera1n (rootless / roothide)
-	•	iOS 15 / 16 / 17
-	•	iPhone and iPad
-
-⸻
-
-🧻 Scripting Engine
-
-The project uses a minimal custom scripting format where each line represents an action.
-This avoids complex languages and improves reliability for extended runs.
-
-An example script is included in the repository.
-
-⸻
-
-🔋 Resource Efficiency
-	•	Near-zero CPU usage when idle
-	•	Automatic memory recycling
-	•	Designed for minimal battery impact
-
-
 ---
+
+## 💪🏻 Core Capabilities
+	
+
 
 ## 📸 Screenshots
 
@@ -118,99 +52,6 @@ An example script is included in the repository.
 | <div align="center"><img src="/Screenshots/RVA_MANAGER.PNG" width="100%" alt="RVA_MANAGER"/></div> | <div align="center"><img src="/Screenshots/POINTER_ANALYSIS.PNG" width="100%" alt="POINTER_ANALYSIS"/></div> | <div align="center"><img src="/Screenshots/POINTER_VERIFY.PNG" width="100%" alt="POINTER_VERIFY"/></div> | <div align="center"><img src="/Screenshots/POINTER_LOCKER.PNG" width="100%" alt="POINTER_LOCKER"/></div> |
 
 ---
-Architecture: The "Ghost in the Machine"
-1. The Body (VF Existing)
-Act: TouchSimulator (Taps, Swipes, Gestures) - Already Perfect
-See: OCREngine (Reading text) - Good, needs expansion
-Listen: Missing (System logs, notifications?)
-2. The Brain (New AI Layer)
-Model: LLM (Gemini/GPT/Claude) running locally or via API.
-Role: Instead of following a linear list of actions, the Brain receives a Goal (e.g., "Farm gold in this game" or "Organize my photos").
-3. The Loop (The Interface)
-The AutomationEngine needs to change from a Script Runner to a REPL (Read-Eval-Print Loop) for the AI.
-
-Screenshot
-Structured Text/Layout
-Decides Next Move
-Tap/Swipe
-Interacts
-World/Screen
-OCR/Vision
-AI Brain
-Action Command
-TouchSimulator
-Required Changes
-A. The "Eyes" Upgrade (Visual Cortex)
-Current OCR is just text. An AGI agent needs Vision.
-
-Instead of just recognizeText, we need describeScreen.
-Implementation: Send the captureScreen image to a Vision-capable model (like Gemini Pro Vision) to understand UI context (buttons, icons, game state).
-B. The "Hands" API (Action Space)
-The AI cannot output raw code. It needs a simplified "Tool Protocol".
-
-tap("Login Button") -> VF finds text "Login" -> Gets coordinates -> TouchSimulator taps.
-swipe("Left") -> VF generates human swipe.
-C. The "Consciousness" Loop (Daemon)
-Current Daemon:
-
-while True:
-  execute_next_line_of_script()
-New AGI Daemon:
-
-while True:
-  1. Observe: What is on screen? (OCR + Vision)
-  2. Think: Does this match my Goal? What should I do?
-  3. Act: Send command to TouchSimulator
-  4. Verify: Did the screen change as expected?
-Implementation Strategy: Embodied AGI
-To make VF a true Agent, we will embed the "Brain" interface directly into the Daemon, rather than relying on an external script.
-
-1. New Component: BrainClient
-Purpose: Handles HTTP communication with AI Models (OpenAI/Gemini).
-Tech: NSURLSession (Native iOS networking).
-Safety: Runs on valid ports, handles timeouts gracefully to not hang the daemon.
-2. New Mode: AutonomousMode
-Trigger: control.json -> { "command": "start_autonomous", "goal": "Win this level" }
-Loop:
-Capture: OCREngine takes a screenshot.
-Encode: Convert user/system compatible image to Base64/JPEG.
-Prompting: Construct a prompt:
-"You are an iOS agent. Your goal is: [GOAL]. Here is the current screen. Return a JSON command: { type: 'tap', x: 0.5, y: 0.5 } or { type: 'wait' }"
-
-Execute: Parse JSON response and call TouchSimulator.
-Feasibility
-YES, this is highly feasible.
-
-VF handles the hard part: Safe, human-like interaction that doesn't get banned.
-AI handles the logic: Making dynamic decisions based on visual feedback.
-Detailed Specifications
-2. Observation Loop (The Eyes)
-The AI needs high-fidelity vision.
-
-Source: OCREngine's captureScreen (software renderer).
-Format: JPEG Compression (0.6 quality) -> Base64 String.
-Frequency: On-Demand (Brain requests "What do I see?").
-Augmentation: To help the AI, we can overlay OCR bounding boxes on the image before sending, or send the OCR text list alongside the image ("CoT Vision").
-3. Action Space (The Hands)
-The AI must output strict JSON.
-
-{
-  "action": "tap", // tap, swipe, type, wait, done, fail
-  "parameters": {
-    "x": 0.5, // Normalized (0-1)
-    "y": 0.5,
-    "text": "Hello", // For type
-    "reason": "Goal accomplished" // For done/fail
-  },
-  "thought": "I see the 'Login' button, tapping it to proceed."
-}
-4. Safety Constraints (The Laws)
-Autonomous agents can be dangerous.
-
-Rate Limiting: Hard limit of 1 action per 2 seconds.
-Emergency Stop: Volume Volume Down (Hardware button) instantly kills the AutonomousMode.
-Geofencing: User can define "Forbidden Zones" (e.g., coordinates of the "Buy" button).
-Confirmation Prompts: For sensitive actions (detected via OCR keywords like "Pay", "Delete", "Confirm"), pause and wait for User Approval via a local notification or UI alert.
 
 ## 📝 Historical Changelog
 
@@ -232,7 +73,7 @@ View the [Releases](../../releases) ChangeLog.
 ---
 
 ## ⚠️ Disclaimer
-This tool is for **security research and reverse engineering learning only**. Please read the following terms carefully before use, and your use of the tool shall be deemed as acceptance of all terms:
+This tool is for **security automation research learning only**. Please read the following terms carefully before use, and your use of the tool shall be deemed as acceptance of all terms:
 *   This tool is a free closed-source project, intended solely for security research, reverse engineering learning and compliance technical scenario testing, and must be uninstalled within 24 hours after use;
 *   This tool is a general technical debugging tool that does not provide targeted functions, debugging methods or exclusive adaptation for any application, with no preset debugging targets or customized operation schemes;
 *   It is strictly prohibited to use this tool for commercial profit, undermining the fairness of application operation, illegally intruding into others' systems, stealing data, or any other acts that violate national laws, regulations and public order and good morals;
