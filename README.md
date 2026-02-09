@@ -36,7 +36,8 @@
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/4c50f790-61b4-4885-9210-897cb5da95f9" />
 
-> ℹ️ More to be included.
+
+> ℹ️ More to be included. Stability > Fancy Features
 
 Overview
 
