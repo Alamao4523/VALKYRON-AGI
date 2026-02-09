@@ -11,6 +11,7 @@
 ![Platform](https://img.shields.io/badge/Platform-iOS%2016.0%2B-blue)
 ![Platform](https://img.shields.io/badge/Platform-iOS%2017.0%2B-orange)
 ![Support](https://img.shields.io/badge/Support-TrollStore-blue)
+[![Email](https://img.shields.io/badge/iPhone%20/iPad-blue?logo=email&logoWidth=20&labelColor=26A5E4&color=white)](mailto:albertosendr@gmail.com?subject=Valkyron%20AGI%20Inquiry)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 > [![Email](https://img.shields.io/badge/Email%20albertosendr@gmail.com-blue?logo=email&logoWidth=20&labelColor=26A5E4&color=white)](mailto:albertosendr@gmail.com?subject=Valkyron%20AGI%20Inquiry)
@@ -23,10 +24,8 @@ iOS AI AUTOMATION
 
 Unlike traditional jailbreak tweaks, it runs externally using Mach kernel APIs without code injection, enabling **memory debugging features to work without a jailbroken environment**. It integrates a powerful memory debugger, app archive manager, intelligent process manager, professional Hex editor, and a comprehensive cross-process RVA debugging suite for jailbroken users. Fully compatible with all iOS device sizes and natively supporting iPad split-screen, it features a consolidated layout and optimized interaction design, delivering top-tier debugging efficiency and stability as a professional iOS app debugging tool.
 
-### ⚠️ Compatibility Notes
-*   **Memory Debugging / Full Pointer Features / Archive Management / iPad Split-Screen / Icon Customization**: ✅ Supported on **all** devices (including non-jailbroken TrollStore users).
-*   **RVA Patcher (Assembly Debugging) / RVA Debug Record Management**: ⚠️ Requires a **jailbroken environment** (e.g., Dopamine, Palera1n) to function properly.
-    *   *Reason:* On non-jailbroken devices, the system AMFI mechanism strictly enforces code signature verification. Direct modification of the executable text segment (`__TEXT`) will cause the target app to crash immediately.
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/25e026b8-64ba-4958-968a-2a3112e8d032" />
+
 
 ---
 
