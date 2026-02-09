@@ -263,8 +263,3 @@ This is a free closed-source project, **we do not accept donations in any form**
 albertosendr@gmail.com
 
 ⸻
-
-![unnamed](https://github.com/user-attachments/assets/a8f6b42e-8f09-45db-8369-86dbd7a838fe)
-
-<img width="1045" height="896" alt="image" src="https://github.com/user-attachments/assets/fa8af2bb-b777-4a25-906e-bfbd7f72a0e0" />
-
