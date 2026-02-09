@@ -14,6 +14,7 @@
 [![Email](https://img.shields.io/badge/For%20iPhone%20&%20iPad-blue?logo=email&logoWidth=20&labelColor=26A5E4&color=white)](mailto:albertosendr@gmail.com?subject=Valkyron%20AGI%20Inquiry)
 ![License](https://img.shields.io/badge/License-MIT-green)
 [![Email](https://img.shields.io/badge/Online%20AGI%20Mode%20/%20Offline%20Private%20Mode-purple?logo=email&logoWidth=20&labelColor=purple&color=white)](mailto:albertosendr@gmail.com?subject=Valkyron%20AGI%20Inquiry)
+[![Email](https://img.shields.io/badge/BETA%20PHASE-YELLOW?logo=email&logoWidth=20&labelColor=yellow&color=white)](mailto:albertosendr@gmail.com?subject=Valkyron%20AGI%20Inquiry)
 
 > [![Email](https://img.shields.io/badge/Email%20albertosendr@gmail.com-blue?logo=email&logoWidth=20&labelColor=26A5E4&color=white)](mailto:albertosendr@gmail.com?subject=Valkyron%20AGI%20Inquiry)
 
