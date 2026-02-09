@@ -43,11 +43,12 @@
 
 ## 💪🏻 Core Capabilities
 	
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/c2474e77-672a-43e5-ad29-ea9f6780ab0b" />
 
 
 ## 📸 Screenshots
 
-| <div align="center"><img src="/Screenshots/APP_SELECT.PNG" width="100%" alt="APP_SELECT"/></div> | <div align="center"><img src="/Screenshots/MEM_BROWSER.PNG" width="100%" alt="MEM_BROWSER"/></div> | <div align="center"><img src="/Screenshots/MEM_DEBUG.PNG" width="100%" alt="MEM_DEBUG"/></div> | <div align="center"><img src="/Screenshots/MEM_HEX_MIX.PNG" width="100%" alt="MEM_HEX_MIX"/></div> |
+| <div align="center"><img src="/Screenshots/APP_SELECT.PNG" width="100%" alt="1"/></div> | <div align="center"><img src="/Screenshots/MEM_BROWSER.PNG" width="100%" alt="2"/></div> | <div align="center"><img src="/Screenshots/MEM_DEBUG.PNG" width="100%" alt="3"/></div> | <div align="center"><img src="/Screenshots/MEM_HEX_MIX.PNG" width="100%" alt="4"/></div> |
 | :----------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------: |
 | <div align="center"><img src="/Screenshots/RVA_MANAGER.PNG" width="100%" alt="RVA_MANAGER"/></div> | <div align="center"><img src="/Screenshots/POINTER_ANALYSIS.PNG" width="100%" alt="POINTER_ANALYSIS"/></div> | <div align="center"><img src="/Screenshots/POINTER_VERIFY.PNG" width="100%" alt="POINTER_VERIFY"/></div> | <div align="center"><img src="/Screenshots/POINTER_LOCKER.PNG" width="100%" alt="POINTER_LOCKER"/></div> |
 
@@ -57,12 +58,13 @@
 
 View the [Releases](../../releases) ChangeLog.
 
+> In  Beta Phase. Releases will be available in Stable Phase.
 ---
 
 ## 📥 Installation
 1. Download the latest `.tipa` file from the [Releases](../../releases) page;
 2. Install via **TrollStore**;
-3. Launch the app and start debugging.
+3. Launch the app and enjoy.
 
 ---
 
