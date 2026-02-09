@@ -1,4 +1,4 @@
-#  ⚜️ CERBERUS-AGI 2026 ⚜️
+#  ⚜️ AGI 2026 ⚜️
 <p align="center">
   <img src="https://repository-images.githubusercontent.com/1109090336/13j7c3-e943-48aff-aa0d-67b3c21e844d" alt="c" width="100%"/>
 </p>
@@ -10,15 +10,13 @@
 ![Support](https://img.shields.io/badge/Support-TrollStore-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-> **提示:** ：点击上方的「Lang 中文」徽章，可查看中文文档。
-
 > [![Join Telegram](https://img.shields.io/badge/Join-Telegram%20Channel-blue?logo=telegram&logoWidth=20&labelColor=26A5E4&color=white)](https://t.me/xxxxxxxxxx)
 
 ---
 
 ## 📖 Introduction
 
-iOS On-Device UI Interaction Runtime (Research Project)
+iOS AI AUTOMATION
 
 Unlike traditional jailbreak tweaks, it runs externally using Mach kernel APIs without code injection, enabling **memory debugging features to work without a jailbroken environment**. It integrates a powerful memory debugger, app archive manager, intelligent process manager, professional Hex editor, and a comprehensive cross-process RVA debugging suite for jailbroken users. Fully compatible with all iOS device sizes and natively supporting iPad split-screen, it features a consolidated layout and optimized interaction design, delivering top-tier debugging efficiency and stability as a professional iOS app debugging tool.
 
@@ -128,6 +126,99 @@ An example script is included in the repository.
 | <div align="center"><img src="/Screenshots/RVA_MANAGER.PNG" width="100%" alt="RVA_MANAGER"/></div> | <div align="center"><img src="/Screenshots/POINTER_ANALYSIS.PNG" width="100%" alt="POINTER_ANALYSIS"/></div> | <div align="center"><img src="/Screenshots/POINTER_VERIFY.PNG" width="100%" alt="POINTER_VERIFY"/></div> | <div align="center"><img src="/Screenshots/POINTER_LOCKER.PNG" width="100%" alt="POINTER_LOCKER"/></div> |
 
 ---
+Architecture: The "Ghost in the Machine"
+1. The Body (VF Existing)
+Act: TouchSimulator (Taps, Swipes, Gestures) - Already Perfect
+See: OCREngine (Reading text) - Good, needs expansion
+Listen: Missing (System logs, notifications?)
+2. The Brain (New AI Layer)
+Model: LLM (Gemini/GPT/Claude) running locally or via API.
+Role: Instead of following a linear list of actions, the Brain receives a Goal (e.g., "Farm gold in this game" or "Organize my photos").
+3. The Loop (The Interface)
+The AutomationEngine needs to change from a Script Runner to a REPL (Read-Eval-Print Loop) for the AI.
+
+Screenshot
+Structured Text/Layout
+Decides Next Move
+Tap/Swipe
+Interacts
+World/Screen
+OCR/Vision
+AI Brain
+Action Command
+TouchSimulator
+Required Changes
+A. The "Eyes" Upgrade (Visual Cortex)
+Current OCR is just text. An AGI agent needs Vision.
+
+Instead of just recognizeText, we need describeScreen.
+Implementation: Send the captureScreen image to a Vision-capable model (like Gemini Pro Vision) to understand UI context (buttons, icons, game state).
+B. The "Hands" API (Action Space)
+The AI cannot output raw code. It needs a simplified "Tool Protocol".
+
+tap("Login Button") -> VF finds text "Login" -> Gets coordinates -> TouchSimulator taps.
+swipe("Left") -> VF generates human swipe.
+C. The "Consciousness" Loop (Daemon)
+Current Daemon:
+
+while True:
+  execute_next_line_of_script()
+New AGI Daemon:
+
+while True:
+  1. Observe: What is on screen? (OCR + Vision)
+  2. Think: Does this match my Goal? What should I do?
+  3. Act: Send command to TouchSimulator
+  4. Verify: Did the screen change as expected?
+Implementation Strategy: Embodied AGI
+To make VF a true Agent, we will embed the "Brain" interface directly into the Daemon, rather than relying on an external script.
+
+1. New Component: BrainClient
+Purpose: Handles HTTP communication with AI Models (OpenAI/Gemini).
+Tech: NSURLSession (Native iOS networking).
+Safety: Runs on valid ports, handles timeouts gracefully to not hang the daemon.
+2. New Mode: AutonomousMode
+Trigger: control.json -> { "command": "start_autonomous", "goal": "Win this level" }
+Loop:
+Capture: OCREngine takes a screenshot.
+Encode: Convert user/system compatible image to Base64/JPEG.
+Prompting: Construct a prompt:
+"You are an iOS agent. Your goal is: [GOAL]. Here is the current screen. Return a JSON command: { type: 'tap', x: 0.5, y: 0.5 } or { type: 'wait' }"
+
+Execute: Parse JSON response and call TouchSimulator.
+Feasibility
+YES, this is highly feasible.
+
+VF handles the hard part: Safe, human-like interaction that doesn't get banned.
+AI handles the logic: Making dynamic decisions based on visual feedback.
+Detailed Specifications
+2. Observation Loop (The Eyes)
+The AI needs high-fidelity vision.
+
+Source: OCREngine's captureScreen (software renderer).
+Format: JPEG Compression (0.6 quality) -> Base64 String.
+Frequency: On-Demand (Brain requests "What do I see?").
+Augmentation: To help the AI, we can overlay OCR bounding boxes on the image before sending, or send the OCR text list alongside the image ("CoT Vision").
+3. Action Space (The Hands)
+The AI must output strict JSON.
+
+{
+  "action": "tap", // tap, swipe, type, wait, done, fail
+  "parameters": {
+    "x": 0.5, // Normalized (0-1)
+    "y": 0.5,
+    "text": "Hello", // For type
+    "reason": "Goal accomplished" // For done/fail
+  },
+  "thought": "I see the 'Login' button, tapping it to proceed."
+}
+4. Safety Constraints (The Laws)
+Autonomous agents can be dangerous.
+
+Rate Limiting: Hard limit of 1 action per 2 seconds.
+Emergency Stop: Volume Volume Down (Hardware button) instantly kills the AutonomousMode.
+Geofencing: User can define "Forbidden Zones" (e.g., coordinates of the "Buy" button).
+Confirmation Prompts: For sensitive actions (detected via OCR keywords like "Pay", "Delete", "Confirm"), pause and wait for User Approval via a local notification or UI alert.
 
 ## 📝 Historical Changelog
 
