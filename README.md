@@ -1,6 +1,7 @@
 #  ⚜️ AGI 2026 ⚜️
+
 <p align="center">
-  <img src="https://repository-images.githubusercontent.com/1109090336/13j7c3-e943-48aff-aa0d-67b3c21e844d" alt="c" width="100%"/>
+  <img src="[https://repository-images.githubusercontent.com/1109090336/13j7c3-e943-48aff-aa0d-67b3c21e844d](https://github.com/user-attachments/assets/addc99a7-ac3a-4b1f-a658-d4a134a45b90)" alt="c" width="100%"/>
 </p>
 
 **iOS AGI exclusively for TrollStore**
