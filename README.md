@@ -21,7 +21,7 @@
 
 ## 📖 Introduction
 
-> Unlike traditional jailbreak tweaks, it enables autonomous AI agents like Claude/GPT/Gemini to operate system-wide without a jailbroken environment, only TrollStore needed. It integrates a powerful Computer Vision Core, Human-Like Touch Simulator, Intelligent Neural Engine, and a stealthy background daemon for unlimited operation. Fully compatible with all iOS device sizes and it features a consolidated control center and optimized decision logic, delivering top-tier reliability and stealth as a professional iOS autonomous agent. It also supports easy quick-craft manual scripts.
+> Unlike traditional jailbreak tweaks, it enables autonomous AI agents like Claude/GPT/Gemini to operate system-wide without a jailbroken environment, only TrollStore needed. It integrates a powerful Computer Vision Core, Human-Like Touch Simulator, Intelligent Neural Engine, and a stealthy background daemon for unlimited operation. Fully compatible with all iOS device sizes and it features a consolidated control center and optimized decision logic, delivering top-tier reliability and stealth as a professional iOS autonomous agent. It also supports easy quick-craft manual scripts. Fully compatible with iOS 15.0 to iOS 17.0. No PC needed.
 
 ## 📖 Supported Gestures
 
