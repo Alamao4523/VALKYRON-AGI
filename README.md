@@ -11,7 +11,7 @@
 ![Support](https://img.shields.io/badge/Support-TrollStore-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-> [![Join Telegram](https://img.shields.io/badge/Join-Telegram%20Channel-blue?logo=telegram&logoWidth=20&labelColor=26A5E4&color=white)](https://t.me/xxxxxxxxxx)
+> [![Email](https://img.shields.io/badge/Email%20Channel-blue?logo=telegram&logoWidth=20&labelColor=26A5E4&color=white)](https://t.me/xxxxxxxxxx)
 
 ---
 
