@@ -3,7 +3,7 @@
   <img src="https://repository-images.githubusercontent.com/1109090336/13j7c3-e943-48aff-aa0d-67b3c21e844d" alt="c" width="100%"/>
 </p>
 
-**iOS Memory Debugger & RVA Debugging Tool exclusively for TrollStore**
+**iOS AGI exclusively for TrollStore**
 
 [![Chinese Readme](https://img.shields.io/badge/语言-简体中文-blue)](./README_CN.md)
 ![Platform](https://img.shields.io/badge/Platform-iOS%2014.0%2B-black)
