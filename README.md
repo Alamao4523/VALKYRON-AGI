@@ -1,4 +1,4 @@
-#  ⚜️ AGI 2026 ⚜️
+#  ⚜️ VALKYRON AGI 2026 ⚜️
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/6aadc273-e330-4f7b-bfd4-bcfece38ad0d" width="100%"/>
