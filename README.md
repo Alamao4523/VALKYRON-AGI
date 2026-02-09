@@ -12,7 +12,7 @@
 
 > **提示:** ：点击上方的「Lang 中文」徽章，可查看中文文档。
 
-> [![Join Telegram](https://img.shields.io/badge/Join-Telegram%20Channel-blue?logo=telegram&logoWidth=20&labelColor=26A5E4&color=white)](https://t.me/VansonMod)
+> [![Join Telegram](https://img.shields.io/badge/Join-Telegram%20Channel-blue?logo=telegram&logoWidth=20&labelColor=26A5E4&color=white)](https://t.me/xxxxxxxxxx)
 
 ---
 
