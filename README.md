@@ -1,6 +1,6 @@
 #  ⚜️ CERBERUS-AGI 2026 ⚜️
 <p align="center">
-  <img src="https://repository-images.githubusercontent.com/1109090336/13j7c3-e943-48aff-aa0d-67b3c21e844d" alt="VansonMod Social Preview" width="100%"/>
+  <img src="https://repository-images.githubusercontent.com/1109090336/13j7c3-e943-48aff-aa0d-67b3c21e844d" alt="c" width="100%"/>
 </p>
 
 **iOS Memory Debugger & RVA Debugging Tool exclusively for TrollStore**
