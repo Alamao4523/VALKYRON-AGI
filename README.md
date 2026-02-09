@@ -25,7 +25,7 @@
 
 ## 📖 Supported Gestures
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/25e026b8-64ba-4958-968a-2a3112e8d032" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/e70bc88f-456d-4ece-806c-d44d36d08cf9" />
 
 ---
 
