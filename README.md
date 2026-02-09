@@ -7,10 +7,10 @@
 **iOS AGI exclusively for TrollStore**
 
 [![Chinese Readme](https://img.shields.io/badge/语言-简体中文-blue)](./README_CN.md)
-![Platform](https://img.shields.io/badge/Platform-iOS%2014.0%2B-green)
-![Platform](https://img.shields.io/badge/Platform-iOS%2015.0%2B-green)
-![Platform](https://img.shields.io/badge/Platform-iOS%2016.0%2B-green)
-![Platform](https://img.shields.io/badge/Platform-iOS%2017.0%2B-green)
+![Platform](https://img.shields.io/badge/Platform-iOS%2014.0%2B-blue)
+![Platform](https://img.shields.io/badge/Platform-iOS%2015.0%2B-blue)
+![Platform](https://img.shields.io/badge/Platform-iOS%2016.0%2B-blue)
+![Platform](https://img.shields.io/badge/Platform-iOS%2017.0%2B-orange)
 ![Support](https://img.shields.io/badge/Support-TrollStore-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
