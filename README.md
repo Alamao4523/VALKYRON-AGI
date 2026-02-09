@@ -11,7 +11,7 @@
 ![Support](https://img.shields.io/badge/Support-TrollStore-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-> [![Email](https://img.shields.io/badge/Email%20Channel-blue?logo=telegram&logoWidth=20&labelColor=26A5E4&color=white)](https://t.me/xxxxxxxxxx)
+> [![Email](https://img.shields.io/badge/Email%20albertosendr@gmail.com-blue?logo=email&logoWidth=20&labelColor=26A5E4&color=white)](mailto:albertosendr@gmail.com?subject=Valkyron%20AGI%20Inquiry)
 
 ---
 
